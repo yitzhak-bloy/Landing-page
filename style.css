@@ -1,0 +1,30 @@
+body {
+  background: url(zxc.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.allElements {
+	height: 100vh;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.allText {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1.5;
+}
+
+.button {
+	flex-grow: 1;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+
